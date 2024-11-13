@@ -1,0 +1,160 @@
+ /*-- Button CSS --*/
+.ui.button.round {
+    border-radius: var(--radius-sm);
+}
+
+.ui.button.size-xs {
+    height: 46px;
+    padding-left: 34px;
+    padding-right: 34px;
+    font-size: 20px;
+}
+.ui.button.size-sm {
+    height: 54px;
+    padding-left: 34px;
+    padding-right: 34px;
+    font-size: 20px;
+}
+.ui.button.outline.white_a700 {
+    color: var(--white_a700);
+    border: 3px solid var(--white_a700);
+}
+
+.ui.button.fill.cyan_300 {
+    background-color: var(--cyan_300);
+    color: var(--blue_gray_900);
+}
+
+.ui.button {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+
+/*-- Input CSS --*/
+  .ui.input.round {
+      border-radius: var(--radius-xs);
+  }
+
+ .ui.input.size-xs {
+     height: 46px;
+     padding-left: 22px;
+     padding-right: 22px;
+     font-size: 20px;
+ }
+
+ .ui.input.size-sm {
+     height: 54px;
+     padding-left: var(--space-lg);
+     padding-right: var(--space-lg); font-size: 20px;
+ }
+
+ .ui.input.fill.white_a700 {
+     background-color: var(--white_a700);
+     color: var(--blue_gray_900_60);
+ }
+
+ .ui.input {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: text;
+     font-size: 20px;
+     background-color: var(--white_a700); border: 0.5px solid var(--black_900);
+ }
+
+
+/*-- Text CSS --*/
+
+  .ui.text.size-texts {
+      font-size: 18px;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+ .ui.text.size-text2xl {
+     font-size: 32px;
+     font-weight: 400;
+     font-style: normal;
+     @media only screen and (max-width: 1050px) {
+         font-size: 30px;
+     }
+     @media only screen and (max-width: 550px) {
+         font-size: 28px;
+     }
+ }
+ .ui.text {
+     color: var(--black_900);
+     font-family: Inter;
+ }
+
+/*-- Heading CSS --*/
+  .ui.heading.size-textxs {
+      font-size: 16px;
+      font-weight: 500;
+      font-style: bold;
+  }
+ .ui.heading.size-textmd {
+     font-size: 20px;
+     font-weight: 500;
+     font-style: bold;
+ }
+ .ui.heading.size-textlg {
+     font-size: 22px;
+     font-weight: 500;
+     font-style: bold;
+ }
+ .ui.heading.size-textxl {
+     font-size: 24px;
+     font-weight: 500;
+     font-style: bold;
+     @media only screen and (max-width: 1050px) {
+         font-size: 22px;
+     }
+ }
+ .ui.heading.size-text3xl {
+     font-size: 36px;
+     font-weight: 500;
+     font-style: bold;
+     @media only screen and (max-width: 1050px) {
+         font-size: 34px;
+     }
+     @media only screen and (max-width: 550px) {
+         font-size: 32px;
+     }
+ }
+
+
+ .ui.heading.size-headingxs {
+     font-size: 128px;
+     font-weight: 700;
+     font-style: bold;
+     @media only screen and (max-width: 1050px) {
+         font-size: 48px;
+     }
+ }
+ .ui.heading {
+     color: var(--white_a700);
+     /*color:#ffffff;*/
+     font-family: Montserrat Alternates;
+ }
+
+ .header_menu-list {
+     gap: var(--space-3xl);
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+/*-- Container CSS --*/
+.container-xs {
+    max-width: 1264px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

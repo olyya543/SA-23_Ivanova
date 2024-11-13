@@ -1,0 +1,96 @@
+:root {
+    /*------Color variables------*/
+    --black_900: #000000;
+    --black_900_33: #00000033;
+    --blue_gray_900: #2e3c42;
+    --blue_gray_900_60: #2e3c4260;
+    --blue_gray_900_a0: #2e3c42a0;
+    --blue_gray_900_a5: #2e3c42a5;
+    --blue_gray_900_b7: #2e3c42b7;
+    --cyan_300: #46bfda;
+    --white_a700: #ffffff;
+    /*------Border radius variables------*/
+    --radius-xs: 22px;
+    --radius-sm: 26px;
+    --radius-md: 30px;
+    /*---------Spacing radius variables------*/
+    --space-xs: 10px;
+    --space-sm: 12px;
+    --space-md: 14px;
+    --space-lg: 16px;
+    --space-xl: 18px;
+    --space-2xl: 26px;
+    --space-3xl: 30px;
+    --space-4xl: 32px;
+    --space-5xl: 86px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat Alternates;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: normal;
+    font-family: inherit;
+    margin: unset;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+input {
+    background-color: transparent;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    margin-inline: unset !important;
+    padding: 0;
+    list-style: none;
+}
+
+
+[type="text"],
+input:where(:not([type])),
+[type="email"],
+[type="url"],
+[type="password"],
+[type="number"],
+[type="date"],
+[type="datetime-local"],
+[type="month"],
+[type="search"],
+[type="tel"],
+[type="time"],
+[type="week"],
+[multiple],
+textarea,
+select,
+button {
+    appearance: none;
+    background-color: transparent;
+    border-color: unset;
+    border-width: 0; border-radius: unset;
+    padding: unset;
+    font-size: unset;
+    line-height: unset;
+    color: inherit;
+}
+
+input:focus-visible,
+[multiple]:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: none;
+}

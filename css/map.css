@@ -1,0 +1,35 @@
+.map-box {
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vw;
+}
+
+.map-address-title{
+  font-size: 32px !important;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-bottom: 3vw;
+}
+
+.map {
+  height: 35vw;
+  width: 100%;
+  border-width: 0px;
+}
+
+.map-address{
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+@media (max-width: 550px){
+  .map-address-title{
+    font-size: 20px !important;
+  }
+
+  .map-address{
+    font-size: 12px;
+  }
+}

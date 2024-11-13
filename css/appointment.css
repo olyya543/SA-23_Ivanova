@@ -1,0 +1,141 @@
+.appointment-box {
+  margin-top: 25vw;
+  background-image: url(../images/img_group_299.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.appointment {
+  padding: 100px 10vw; 
+  display: flex;
+  row-gap: 10vw;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--blue_gray_900_a0);
+}
+
+.appointment-section {
+  display: flex;
+  margin-bottom: 10vw;
+  flex-direction: column;
+}
+
+.appointment-section_form {
+  background-color: var(--white_a700);
+  width: 60vw;
+  max-width: 600px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  border-radius: var(--radius-md);
+}
+
+.appointment-section-name {
+  color: var(--black_900) !important;
+  margin-left: 1.5vw;
+  margin-top: 20px;
+}
+
+.appointment-section-input-name {
+  color: var(--black_900_33) !important;
+  font-weight: 500;
+  background-color: var(--white_a700) !important;
+  width: 70%;
+  height: 54px;
+  border-radius: 26px !important;
+  margin-bottom: 20px;
+}
+
+
+.appointment-section-phone {
+  color: var(--black_900) !important;
+  margin-left: 1.5vw;
+}
+
+.appointment-section-input-phone {
+  color: var(--black_900_33) !important;
+  font-weight: 500;
+  background-color: var(--white_a700) !important;
+  width: 70%;
+  height: 54px;
+  border-radius: 26px !important;
+}
+
+.appointment-section-submit-button {
+  color: var(--white_a700) !important;
+  padding-right: 34px; 
+  font-weight: 500;
+  align-self: end;
+  background-color: var(--cyan_300) !important; 
+  height: 54px;
+  width: 190px;
+  border-radius: 26px !important;
+  margin: 15px 0px;
+}
+
+.appointment-section-submit-button:hover{
+  background-color: #46bfdad3 !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.286);
+  transition: box-shadow 0.15s ease;
+}
+
+@media (max-width: 550px){
+  .appointment-box {
+    background-image: none;
+  }
+
+  .appointment{
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .appointment-section{
+    margin-bottom: 0px;
+  }
+
+  .appointment-header-section,
+  .appointment-section{
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .appointment-section_title{
+    font-size: 16px !important;
+    color: #2E3C42 !important;
+    font-family: Montserrat !important;
+  }
+
+  .appointment-section_form {
+    width: 70vw;
+    padding: 40px 20px;
+    border: 2px solid #2E3C42 !important;
+  }
+
+  .appointment-section-name,
+  .appointment-section-input-name,
+  .appointment-section-phone,
+  .appointment-section-input-phone{
+    font-size: 12px !important;
+  }
+
+  .appointment-section-name,
+  .appointment-section-phone{
+    padding-left: 10px;
+  }
+
+  .appointment-section-input-name,
+  .appointment-section-input-phone{
+    width: 100%;
+    height: 40px !important;
+  }
+
+  .appointment-section-submit-button {
+    align-self: center;
+    font-size: 13px !important;
+    background-color: var(--cyan_300) !important; 
+    height: 40px !important;
+    width: 170px !important;
+  }
+}

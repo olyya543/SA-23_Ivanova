@@ -1,0 +1,109 @@
+.prices-header-section {
+  margin-top: 260px; 
+  gap: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-line {
+  height: 6px;
+  align-self: start;
+  background-color: var(--cyan_300);
+  width: 44%;
+}
+
+.title-box {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: var(--blue_gray_900) !important;
+  font-family: Montserrat !important;
+  font-weight: 500 !important;
+}
+
+.right-line {
+  height: 6px;
+  align-self: end;
+  background-color: var(--cyan_300);
+  width: 44%;
+}
+
+.prices-section{
+  margin: 65px 7vw 0px 7vw; 
+}
+
+.services-list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 100%;
+  padding: 40px 20px;
+  background-color: #2E3C42B8;
+  border-radius: 30px;
+}
+
+.service-price-item {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: baseline; 
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+
+.service-line {
+  flex-grow: 1;
+  height: 0.5px;
+  background-color: white;
+  margin: 0 10px;
+}
+
+.service-price-item:hover{
+  color: #46BFDA;
+  cursor: pointer; 
+  background-color: #2e3c4281;
+}
+
+.service-price-item:hover .service-line{
+  background-color: #46BFDA;
+}
+
+.service-price {
+  width: 120px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+@media (max-width: 550px){
+  .prices-header-section {
+    gap: 25px;
+  }
+
+  .title{
+    font-size: 20px !important;
+  }
+
+  .services-list{
+    row-gap: 15px;
+  }
+
+  .service-price-item{
+    font-size: 11px;
+  }
+
+  .service-line{
+    display: none;
+  }
+
+  .service-price {
+    width: 80px;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
